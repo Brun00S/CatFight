@@ -194,7 +194,6 @@ function voltar(){
 
 function remover(id){
     //remover do servido o gato selecionado
-    id1 = parseInt(id)
     fetch(`http://localhost:3000/del/${id}`, {
         method: "DELETE",
     });
